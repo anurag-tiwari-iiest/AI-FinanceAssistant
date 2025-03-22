@@ -1,0 +1,794 @@
+Date,Description,Amount
+2024-01-01,Amazon Purchase,-35.2
+2024-01-01,Starbucks,-5.3
+2024-01-01,Salary,3000
+2024-01-02,Uber Ride,-15.0
+2024-01-02,McDonald's,-12.0
+2024-01-03,Grocery Shopping,-45.0
+2024-01-03,Rent Payment,-850
+2024-01-04,Amazon Purchase,-50.0
+2024-01-04,Starbucks,-6.5
+2024-01-05,Car Repair,-200
+2024-01-05,Salary,3000
+2024-01-06,Uber Ride,-20.0
+2024-01-06,McDonald's,-15.0
+2024-01-07,Grocery Shopping,-60.0
+2024-01-07,Rent Payment,-850
+2024-01-08,Amazon Purchase,-40.0
+2024-01-08,Starbucks,-7.0
+2024-01-09,Car Repair,-250
+2024-01-09,Salary,3000
+2024-01-10,Uber Ride,-25.0
+2024-01-10,McDonald's,-18.0
+2024-01-11,Grocery Shopping,-70.0
+2024-01-11,Rent Payment,-850
+2024-01-12,Amazon Purchase,-45.0
+2024-01-12,Starbucks,-8.0
+2024-01-13,Car Repair,-300
+2024-01-13,Salary,3000
+2024-01-14,Uber Ride,-30.0
+2024-01-14,McDonald's,-20.0
+2024-01-15,Grocery Shopping,-80.0
+2024-01-15,Rent Payment,-850
+2024-01-16,Amazon Purchase,-50.0
+2024-01-16,Starbucks,-9.0
+2024-01-17,Car Repair,-350
+2024-01-17,Salary,3000
+2024-01-18,Uber Ride,-35.0
+2024-01-18,McDonald's,-22.0
+2024-01-19,Grocery Shopping,-90.0
+2024-01-19,Rent Payment,-850
+2024-01-20,Amazon Purchase,-55.0
+2024-01-20,Starbucks,-10.0
+2024-01-21,Car Repair,-400
+2024-01-21,Salary,3000
+2024-01-22,Uber Ride,-40.0
+2024-01-22,McDonald's,-25.0
+2024-01-23,Grocery Shopping,-100.0
+2024-01-23,Rent Payment,-850
+2024-01-24,Amazon Purchase,-60.0
+2024-01-24,Starbucks,-12.0
+2024-01-25,Car Repair,-450
+2024-01-25,Salary,3000
+2024-01-26,Uber Ride,-45.0
+2024-01-26,McDonald's,-28.0
+2024-01-27,Grocery Shopping,-110.0
+2024-01-27,Rent Payment,-850
+2024-01-28,Amazon Purchase,-65.0
+2024-01-28,Starbucks,-13.0
+2024-01-29,Car Repair,-500
+2024-01-29,Salary,3000
+2024-01-30,Uber Ride,-50.0
+2024-01-30,McDonald's,-30.0
+2024-01-31,Grocery Shopping,-120.0
+2024-01-31,Rent Payment,-850
+2024-02-01,Amazon Purchase,-70.0
+2024-02-01,Starbucks,-15.0
+2024-02-02,Car Repair,-550
+2024-02-02,Salary,3000
+2024-02-03,Uber Ride,-55.0
+2024-02-03,McDonald's,-32.0
+2024-02-04,Grocery Shopping,-130.0
+2024-02-04,Rent Payment,-850
+2024-02-05,Amazon Purchase,-75.0
+2024-02-05,Starbucks,-16.0
+2024-02-06,Car Repair,-600
+2024-02-06,Salary,3000
+2024-02-07,Uber Ride,-60.0
+2024-02-07,McDonald's,-35.0
+2024-02-08,Grocery Shopping,-140.0
+2024-02-08,Rent Payment,-850
+2024-02-09,Amazon Purchase,-80.0
+2024-02-09,Starbucks,-18.0
+2024-02-10,Car Repair,-650
+2024-02-10,Salary,3000
+2024-02-11,Uber Ride,-65.0
+2024-02-11,McDonald's,-38.0
+2024-02-12,Grocery Shopping,-150.0
+2024-02-12,Rent Payment,-850
+2024-02-13,Amazon Purchase,-85.0
+2024-02-13,Starbucks,-20.0
+2024-02-14,Car Repair,-700
+2024-02-14,Salary,3000
+2024-02-15,Uber Ride,-70.0
+2024-02-15,McDonald's,-40.0
+2024-02-16,Grocery Shopping,-160.0
+2024-02-16,Rent Payment,-850
+2024-02-17,Amazon Purchase,-90.0
+2024-02-17,Starbucks,-22.0
+2024-02-18,Car Repair,-750
+2024-02-18,Salary,3000
+2024-02-19,Uber Ride,-75.0
+2024-02-19,McDonald's,-42.0
+2024-02-20,Grocery Shopping,-170.0
+2024-02-20,Rent Payment,-850
+2024-02-21,Amazon Purchase,-95.0
+2024-02-21,Starbucks,-23.0
+2024-02-22,Car Repair,-800
+2024-02-22,Salary,3000
+2024-02-23,Uber Ride,-80.0
+2024-02-23,McDonald's,-45.0
+2024-02-24,Grocery Shopping,-180.0
+2024-02-24,Rent Payment,-850
+2024-02-25,Amazon Purchase,-100.0
+2024-02-25,Starbucks,-25.0
+2024-02-26,Car Repair,-850
+2024-02-26,Salary,3000
+2024-02-27,Uber Ride,-85.0
+2024-02-27,McDonald's,-48.0
+2024-02-28,Grocery Shopping,-190.0
+2024-02-28,Rent Payment,-850
+2024-02-29,Amazon Purchase,-105.0
+2024-02-29,Starbucks,-27.0
+2024-03-01,Car Repair,-900
+2024-03-01,Salary,3000
+2024-03-02,Uber Ride,-90.0
+2024-03-02,McDonald's,-50.0
+2024-03-03,Grocery Shopping,-200.0
+2024-03-03,Rent Payment,-850
+2024-03-04,Amazon Purchase,-110.0
+2024-03-04,Starbucks,-30.0
+2024-03-05,Car Repair,-950
+2024-03-05,Salary,3000
+2024-03-06,Uber Ride,-95.0
+2024-03-06,McDonald's,-52.0
+2024-03-07,Grocery Shopping,-210.0
+2024-03-07,Rent Payment,-850
+2024-03-08,Amazon Purchase,-115.0
+2024-03-08,Starbucks,-32.0
+2024-03-09,Car Repair,-1000
+2024-03-09,Salary,3000
+2024-03-10,Uber Ride,-100.0
+2024-03-10,McDonald's,-55.0
+2024-03-11,Grocery Shopping,-220.0
+2024-03-11,Rent Payment,-850
+2024-03-12,Amazon Purchase,-120.0
+2024-03-12,Starbucks,-35.0
+2024-03-13,Car Repair,-1050
+2024-03-13,Salary,3000
+2024-03-14,Uber Ride,-105.0
+2024-03-14,McDonald's,-58.0
+2024-03-15,Grocery Shopping,-230.0
+2024-03-15,Rent Payment,-850
+2024-03-16,Amazon Purchase,-125.0
+2024-03-16,Starbucks,-37.0
+2024-03-17,Car Repair,-1100
+2024-03-17,Salary,3000
+2024-03-18,Uber Ride,-110.0
+2024-03-18,McDonald's,-60.0
+2024-03-19,Grocery Shopping,-240.0
+2024-03-19,Rent Payment,-850
+2024-03-20,Amazon Purchase,-130.0
+2024-03-20,Starbucks,-40.0
+2024-03-21,Car Repair,-1150
+2024-03-21,Salary,3000
+2024-03-22,Uber Ride,-115.0
+2024-03-22,McDonald's,-62.0
+2024-03-23,Grocery Shopping,-250.0
+2024-03-23,Rent Payment,-850
+2024-03-24,Amazon Purchase,-135.0
+2024-03-24,Starbucks,-42.0
+2024-03-25,Car Repair,-1200
+2024-03-25,Salary,3000
+2024-03-26,Uber Ride,-120.0
+2024-03-26,McDonald's,-65.0
+2024-03-27,Grocery Shopping,-260.0
+2024-03-27,Rent Payment,-850
+2024-03-28,Amazon Purchase,-140.0
+2024-03-28,Starbucks,-45.0
+2024-03-29,Car Repair,-1250
+2024-03-29,Salary,3000
+2024-03-30,Uber Ride,-125.0
+2024-03-30,McDonald's,-68.0
+2024-03-31,Grocery Shopping,-270.0
+2024-03-31,Rent Payment,-850
+2024-04-01,Amazon Purchase,-145.0
+2024-04-01,Starbucks,-47.0
+2024-04-02,Car Repair,-1300
+2024-04-02,Salary,3000
+2024-04-03,Uber Ride,-130.0
+2024-04-03,McDonald's,-70.0
+2024-04-04,Grocery Shopping,-280.0
+2024-04-04,Rent Payment,-850
+2024-04-05,Amazon Purchase,-150.0
+2024-04-05,Starbucks,-50.0
+2024-04-06,Car Repair,-1350
+2024-04-06,Salary,3000
+2024-04-07,Uber Ride,-135.0
+2024-04-07,McDonald's,-72.0
+2024-04-08,Grocery Shopping,-290.0
+2024-04-08,Rent Payment,-850
+2024-04-09,Amazon Purchase,-155.0
+2024-04-09,Starbucks,-52.0
+2024-04-10,Car Repair,-1400
+2024-04-10,Salary,3000
+2024-04-11,Uber Ride,-140.0
+2024-04-11,McDonald's,-75.0
+2024-04-12,Grocery Shopping,-300.0
+2024-04-12,Rent Payment,-850
+2024-04-13,Amazon Purchase,-160.0
+2024-04-13,Starbucks,-55.0
+2024-04-14,Car Repair,-1450
+2024-04-14,Salary,3000
+2024-04-15,Uber Ride,-145.0
+2024-04-15,McDonald's,-78.0
+2024-04-16,Grocery Shopping,-310.0
+2024-04-16,Rent Payment,-850
+2024-04-17,Amazon Purchase,-165.0
+2024-04-17,Starbucks,-57.0
+2024-04-18,Car Repair,-1500
+2024-04-18,Salary,3000
+2024-04-19,Uber Ride,-150.0
+2024-04-19,McDonald's,-80.0
+2024-04-20,Grocery Shopping,-320.0
+2024-04-20,Rent Payment,-850
+2024-04-21,Amazon Purchase,-170.0
+2024-04-21,Starbucks,-60.0
+2024-04-22,Car Repair,-1550
+2024-04-22,Salary,3000
+2024-04-23,Uber Ride,-155.0
+2024-04-23,McDonald's,-83.0
+2024-04-24,Grocery Shopping,-330.0
+2024-04-24,Rent Payment,-850
+2024-04-25,Amazon Purchase,-175.0
+2024-04-25,Starbucks,-62.0
+2024-04-26,Car Repair,-1600
+2024-04-26,Salary,3000
+2024-04-27,Uber Ride,-160.0
+2024-04-27,McDonald's,-85.0
+2024-04-28,Grocery Shopping,-340.0
+2024-04-28,Rent Payment,-850
+2024-04-29,Amazon Purchase,-180.0
+2024-04-29,Starbucks,-65.0
+2024-04-30,Car Repair,-1650
+2024-04-30,Salary,3000
+2024-05-01,Uber Ride,-165.0
+2024-05-01,McDonald's,-88.0
+2024-05-02,Grocery Shopping,-350.0
+2024-05-02,Rent Payment,-850
+2024-05-03,Amazon Purchase,-185.0
+2024-05-03,Starbucks,-67.0
+2024-05-04,Car Repair,-1700
+2024-05-04,Salary,3000
+2024-05-05,Uber Ride,-170.0
+2024-05-05,McDonald's,-90.0
+2024-05-06,Grocery Shopping,-360.0
+2024-05-06,Rent Payment,-850
+2024-05-07,Amazon Purchase,-190.0
+2024-05-07,Starbucks,-70.0
+2024-05-08,Car Repair,-1750
+2024-05-08,Salary,3000
+2024-05-09,Uber Ride,-175.0
+2024-05-09,McDonald's,-93.0
+2024-05-10,Grocery Shopping,-370.0
+2024-05-10,Rent Payment,-850
+2024-05-11,Amazon Purchase,-195.0
+2024-05-11,Starbucks,-72.0
+2024-05-12,Car Repair,-1800
+2024-05-12,Salary,3000
+2024-05-13,Uber Ride,-180.0
+2024-05-13,McDonald's,-95.0
+2024-05-14,Grocery Shopping,-380.0
+2024-05-14,Rent Payment,-850
+2024-05-15,Amazon Purchase,-200.0
+2024-05-15,Starbucks,-75.0
+2024-05-16,Car Repair,-1850
+2024-05-16,Salary,3000
+2024-05-17,Uber Ride,-185.0
+2024-05-17,McDonald's,-98.0
+2024-05-18,Grocery Shopping,-390.0
+2024-05-18,Rent Payment,-850
+2024-05-19,Amazon Purchase,-205.0
+2024-05-19,Starbucks,-77.0
+2024-05-20,Car Repair,-1900
+2024-05-20,Salary,3000
+2024-05-21,Uber Ride,-190.0
+2024-05-21,McDonald's,-100.0
+2024-05-22,Grocery Shopping,-400.0
+2024-05-22,Rent Payment,-850
+2024-05-23,Amazon Purchase,-210.0
+2024-05-23,Starbucks,-80.0
+2024-05-24,Car Repair,-1950
+2024-05-24,Salary,3000
+2024-05-25,Uber Ride,-195.0
+2024-05-25,McDonald's,-103.0
+2024-05-26,Grocery Shopping,-410.0
+2024-05-26,Rent Payment,-850
+2024-05-27,Amazon Purchase,-215.0
+2024-05-27,Starbucks,-82.0
+2024-05-28,Car Repair,-2000
+2024-05-28,Salary,3000
+2024-05-29,Uber Ride,-200.0
+2024-05-29,McDonald's,-105.0
+2024-05-30,Grocery Shopping,-420.0
+2024-05-30,Rent Payment,-850
+2024-05-31,Amazon Purchase,-220.0
+2024-05-31,Starbucks,-85.0
+2024-06-01,Uber Ride,-150.0
+2024-06-01,McDonald's,-80.0
+2024-06-02,Grocery Shopping,-300.0
+2024-06-02,Rent Payment,-850
+2024-06-03,Amazon Purchase,-160.0
+2024-06-03,Starbucks,-60.0
+2024-06-04,Car Repair,-1200
+2024-06-04,Salary,3000
+2024-06-05,Uber Ride,-155.0
+2024-06-05,McDonald's,-85.0
+2024-06-06,Grocery Shopping,-310.0
+2024-06-06,Rent Payment,-850
+2024-06-07,Amazon Purchase,-170.0
+2024-06-07,Starbucks,-65.0
+2024-06-08,Car Repair,-1250
+2024-06-08,Salary,3000
+2024-06-09,Uber Ride,-160.0
+2024-06-09,McDonald's,-88.0
+2024-06-10,Grocery Shopping,-320.0
+2024-06-10,Rent Payment,-850
+2024-06-11,Amazon Purchase,-175.0
+2024-06-11,Starbucks,-67.0
+2024-06-12,Car Repair,-1300
+2024-06-12,Salary,3000
+2024-06-13,Uber Ride,-165.0
+2024-06-13,McDonald's,-90.0
+2024-06-14,Grocery Shopping,-330.0
+2024-06-14,Rent Payment,-850
+2024-06-15,Amazon Purchase,-180.0
+2024-06-15,Starbucks,-70.0
+2024-06-16,Car Repair,-1350
+2024-06-16,Salary,3000
+2024-06-17,Uber Ride,-170.0
+2024-06-17,McDonald's,-93.0
+2024-06-18,Grocery Shopping,-340.0
+2024-06-18,Rent Payment,-850
+2024-06-19,Amazon Purchase,-185.0
+2024-06-19,Starbucks,-72.0
+2024-06-20,Car Repair,-1400
+2024-06-20,Salary,3000
+2024-06-21,Uber Ride,-175.0
+2024-06-21,McDonald's,-95.0
+2024-06-22,Grocery Shopping,-350.0
+2024-06-22,Rent Payment,-850
+2024-06-23,Amazon Purchase,-190.0
+2024-06-23,Starbucks,-75.0
+2024-06-24,Car Repair,-1450
+2024-06-24,Salary,3000
+2024-06-25,Uber Ride,-180.0
+2024-06-25,McDonald's,-98.0
+2024-06-26,Grocery Shopping,-360.0
+2024-06-26,Rent Payment,-850
+2024-06-27,Amazon Purchase,-195.0
+2024-06-27,Starbucks,-77.0
+2024-06-28,Car Repair,-1500
+2024-06-28,Salary,3000
+2024-06-29,Uber Ride,-185.0
+2024-06-29,McDonald's,-100.0
+2024-06-30,Grocery Shopping,-370.0
+2024-06-30,Rent Payment,-850
+2024-07-01,Uber Ride,-155.0
+2024-07-01,McDonald's,-85.0
+2024-07-02,Grocery Shopping,-310.0
+2024-07-02,Rent Payment,-850
+2024-07-03,Amazon Purchase,-165.0
+2024-07-03,Starbucks,-65.0
+2024-07-04,Car Repair,-1100
+2024-07-04,Salary,3000
+2024-07-05,Uber Ride,-160.0
+2024-07-05,McDonald's,-88.0
+2024-07-06,Grocery Shopping,-320.0
+2024-07-06,Rent Payment,-850
+2024-07-07,Amazon Purchase,-170.0
+2024-07-07,Starbucks,-68.0
+2024-07-08,Car Repair,-1150
+2024-07-08,Salary,3000
+2024-07-09,Uber Ride,-165.0
+2024-07-09,McDonald's,-90.0
+2024-07-10,Grocery Shopping,-330.0
+2024-07-10,Rent Payment,-850
+2024-07-11,Amazon Purchase,-175.0
+2024-07-11,Starbucks,-70.0
+2024-07-12,Car Repair,-1200
+2024-07-12,Salary,3000
+2024-07-13,Uber Ride,-170.0
+2024-07-13,McDonald's,-93.0
+2024-07-14,Grocery Shopping,-340.0
+2024-07-14,Rent Payment,-850
+2024-07-15,Amazon Purchase,-180.0
+2024-07-15,Starbucks,-72.0
+2024-07-16,Car Repair,-1250
+2024-07-16,Salary,3000
+2024-07-17,Uber Ride,-175.0
+2024-07-17,McDonald's,-95.0
+2024-07-18,Grocery Shopping,-350.0
+2024-07-18,Rent Payment,-850
+2024-07-19,Amazon Purchase,-185.0
+2024-07-19,Starbucks,-75.0
+2024-07-20,Car Repair,-1300
+2024-07-20,Salary,3000
+2024-07-21,Uber Ride,-180.0
+2024-07-21,McDonald's,-98.0
+2024-07-22,Grocery Shopping,-360.0
+2024-07-22,Rent Payment,-850
+2024-07-23,Amazon Purchase,-190.0
+2024-07-23,Starbucks,-78.0
+2024-07-24,Car Repair,-1350
+2024-07-24,Salary,3000
+2024-07-25,Uber Ride,-185.0
+2024-07-25,McDonald's,-100.0
+2024-07-26,Grocery Shopping,-370.0
+2024-07-26,Rent Payment,-850
+2024-07-27,Amazon Purchase,-195.0
+2024-07-27,Starbucks,-80.0
+2024-07-28,Car Repair,-1400
+2024-07-28,Salary,3000
+2024-07-29,Uber Ride,-190.0
+2024-07-29,McDonald's,-103.0
+2024-07-30,Grocery Shopping,-380.0
+2024-07-30,Rent Payment,-850
+2024-07-31,Amazon Purchase,-200.0
+2024-07-31,Starbucks,-83.0
+2024-08-01,Uber Ride,-160.0
+2024-08-01,McDonald's,-90.0
+2024-08-02,Grocery Shopping,-320.0
+2024-08-02,Rent Payment,-850
+2024-08-03,Amazon Purchase,-170.0
+2024-08-03,Starbucks,-70.0
+2024-08-04,Car Repair,-1200
+2024-08-04,Salary,3000
+2024-08-05,Uber Ride,-165.0
+2024-08-05,McDonald's,-95.0
+2024-08-06,Grocery Shopping,-330.0
+2024-08-06,Rent Payment,-850
+2024-08-07,Amazon Purchase,-175.0
+2024-08-07,Starbucks,-72.0
+2024-08-08,Car Repair,-1250
+2024-08-08,Salary,3000
+2024-08-09,Uber Ride,-170.0
+2024-08-09,McDonald's,-98.0
+2024-08-10,Grocery Shopping,-340.0
+2024-08-10,Rent Payment,-850
+2024-08-11,Amazon Purchase,-180.0
+2024-08-11,Starbucks,-75.0
+2024-08-12,Car Repair,-1300
+2024-08-12,Salary,3000
+2024-08-13,Uber Ride,-175.0
+2024-08-13,McDonald's,-100.0
+2024-08-14,Grocery Shopping,-350.0
+2024-08-14,Rent Payment,-850
+2024-08-15,Amazon Purchase,-185.0
+2024-08-15,Starbucks,-78.0
+2024-08-16,Car Repair,-1350
+2024-08-16,Salary,3000
+2024-08-17,Uber Ride,-180.0
+2024-08-17,McDonald's,-103.0
+2024-08-18,Grocery Shopping,-360.0
+2024-08-18,Rent Payment,-850
+2024-08-19,Amazon Purchase,-190.0
+2024-08-19,Starbucks,-80.0
+2024-08-20,Car Repair,-1400
+2024-08-20,Salary,3000
+2024-08-21,Uber Ride,-185.0
+2024-08-21,McDonald's,-105.0
+2024-08-22,Grocery Shopping,-370.0
+2024-08-22,Rent Payment,-850
+2024-08-23,Amazon Purchase,-195.0
+2024-08-23,Starbucks,-83.0
+2024-08-24,Car Repair,-1450
+2024-08-24,Salary,3000
+2024-08-25,Uber Ride,-190.0
+2024-08-25,McDonald's,-108.0
+2024-08-26,Grocery Shopping,-380.0
+2024-08-26,Rent Payment,-850
+2024-08-27,Amazon Purchase,-200.0
+2024-08-27,Starbucks,-85.0
+2024-08-28,Car Repair,-1500
+2024-08-28,Salary,3000
+2024-08-29,Uber Ride,-195.0
+2024-08-29,McDonald's,-110.0
+2024-08-30,Grocery Shopping,-390.0
+2024-08-30,Rent Payment,-850
+2024-08-31,Amazon Purchase,-205.0
+2024-08-31,Starbucks,-88.0
+2024-09-01,Uber Ride,-160.0
+2024-09-01,Salary,5000
+2024-09-02,McDonald's,-92.0
+2024-09-02,Salary,4000
+2024-09-03,Grocery Shopping,-340.0
+2024-09-03,Salary,4000
+2024-09-04,Rent Payment,-850
+2024-09-04,Salary,3000
+2024-09-05,Amazon Purchase,-170.0
+2024-09-05,Starbucks,-70.0
+2024-09-06,Car Repair,-1200
+2024-09-06,Salary,3000
+2024-09-07,Uber Ride,-175.0
+2024-09-07,Salary,2000
+2024-09-08,Salary,3000
+2024-09-08,Grocery Shopping,-350.0
+2024-09-09,Amazon Purchase,-180.0
+2024-09-09,Starbucks,-72.0
+2024-09-10,Rent Payment,-850
+2024-09-10,Salary,2000
+2024-09-11,Salary,3000
+2024-09-11,Car Repair,-1300
+2024-09-12,Uber Ride,-180.0
+2024-09-12,Salary,2000
+2024-09-13,McDonald's,-95.0
+2024-09-13,Salary,3000
+2024-09-14,Grocery Shopping,-360.0
+2024-09-14,Amazon Purchase,-185.0
+2024-09-15,Starbucks,-75.0
+2024-09-15,Salary,3000
+2024-09-16,Car Repair,-1350
+2024-09-16,Salary,3000
+2024-09-17,Uber Ride,-185.0
+2024-09-17,Salary,2000
+2024-09-18,Grocery Shopping,-370.0
+2024-09-18,Salary,3000
+2024-09-19,Uber Ride,-160.0
+2024-09-19,Salary,2000
+2024-09-20,McDonald's,-90.0
+2024-09-20,Salary,3000
+2024-09-21,Grocery Shopping,-320.0
+2024-09-21,Rent Payment,-850
+2024-09-22,Amazon Purchase,-170.0
+2024-09-22,Starbucks,-70.0
+2024-09-23,Car Repair,-1200
+2024-09-23,Salary,3000
+2024-09-24,Salary,2000
+2024-09-24,Grocery Shopping,-330.0
+2024-09-25,Amazon Purchase,-175.0
+2024-09-25,Starbucks,-72.0
+2024-09-26,Car Repair,-1250
+2024-09-26,Salary,3000
+2024-09-27,Uber Ride,-10070.0
+2024-09-27,Salary,2000
+2024-09-28,Grocery Shopping,-340.0
+2024-09-28,Salary,3000
+2024-09-29,McDonald's,-92.0
+2024-09-29,Amazon Purchase,-180.0
+2024-09-30,Starbucks,-75.0
+2024-09-30,Salary,3000
+2024-10-01,Uber Ride,-162.0
+2024-10-01,Salary,5000
+2024-10-02,McDonald's,-95.0
+2024-10-02,Salary,4000
+2024-10-03,Grocery Shopping,-310.0
+2024-10-03,Salary,4000
+2024-10-04,Rent Payment,-860
+2024-10-04,Salary,3000
+2024-10-05,Amazon Purchase,-165.0
+2024-10-05,Starbucks,-72.0
+2024-10-06,Car Repair,-1100
+2024-10-06,Salary,3000
+2024-10-07,Uber Ride,-168.0
+2024-10-07,Salary,2000
+2024-10-08,Salary,3000
+2024-10-08,Grocery Shopping,-320.0
+2024-10-09,Amazon Purchase,-170.0
+2024-10-09,Starbucks,-74.0
+2024-10-10,Rent Payment,-870
+2024-10-10,Salary,2000
+2024-10-11,Salary,3000
+2024-10-11,Car Repair,-1150
+2024-10-12,Uber Ride,-172.0
+2024-10-12,Salary,2000
+2024-10-13,McDonald's,-94.0
+2024-10-13,Salary,3000
+2024-10-14,Grocery Shopping,-330.0
+2024-10-14,Amazon Purchase,-185.0
+2024-10-15,Starbucks,-77.0
+2024-10-15,Salary,3000
+2024-10-16,Car Repair,-1200
+2024-10-16,Salary,3000
+2024-10-17,Uber Ride,-165.0
+2024-10-17,Salary,2000
+2024-10-18,Grocery Shopping,-340.0
+2024-10-18,Salary,3000
+2024-10-19,Uber Ride,-17000.0
+2024-10-19,Salary,2000
+2024-10-20,McDonald's,-97.0
+2024-10-20,Salary,3000
+2024-10-21,Grocery Shopping,-315.0
+2024-10-21,Rent Payment,-870
+2024-10-22,Amazon Purchase,-160.0
+2024-10-22,Starbucks,-70.0
+2024-10-23,Car Repair,-1050
+2024-10-23,Salary,3000
+2024-10-24,Salary,2000
+2024-10-24,Grocery Shopping,-325.0
+2024-10-25,Amazon Purchase,-175.0
+2024-10-25,Starbucks,-72.0
+2024-10-26,Car Repair,-1120
+2024-10-26,Salary,3000
+2024-10-27,Uber Ride,-170.0
+2024-10-27,Salary,2000
+2024-10-28,Grocery Shopping,-335.0
+2024-10-28,Salary,3000
+2024-10-29,McDonald's,-96.0
+2024-10-29,Amazon Purchase,-190.0
+2024-10-30,Starbucks,-78.0
+2024-10-30,Salary,3000
+2024-11-01,Uber Ride,-170.0
+2024-11-01,Salary,5000
+2024-11-02,McDonald's,-100.0
+2024-11-02,Salary,4000
+2024-11-03,Grocery Shopping,-320.0
+2024-11-03,Salary,4000
+2024-11-04,Rent Payment,-880
+2024-11-04,Salary,3000
+2024-11-05,Amazon Purchase,-155.0
+2024-11-05,Starbucks,-68.0
+2024-11-06,Car Repair,-1020
+2024-11-06,Salary,3000
+2024-11-07,Uber Ride,-175.0
+2024-11-07,Salary,2000
+2024-11-08,Salary,3000
+2024-11-08,Grocery Shopping,-330.0
+2024-11-09,Amazon Purchase,-180.0
+2024-11-09,Starbucks,-75.0
+2024-11-10,Rent Payment,-880
+2024-11-10,Salary,2000
+2024-11-11,Salary,3000
+2024-11-11,Car Repair,-1100
+2024-11-12,Uber Ride,-178.0
+2024-11-12,Salary,2000
+2024-11-13,McDonald's,-98.0
+2024-11-13,Salary,3000
+2024-11-14,Grocery Shopping,-340.0
+2024-11-14,Amazon Purchase,-19005.0
+2024-11-15,Starbucks,-80.0
+2024-11-15,Salary,3000
+2024-11-16,Car Repair,-1150
+2024-11-16,Salary,3000
+2024-11-17,Uber Ride,-180.0
+2024-11-17,Salary,2000
+2024-11-18,Grocery Shopping,-350.0
+2024-11-18,Salary,3000
+2024-11-19,Uber Ride,-185.0
+2024-11-19,Salary,2000
+2024-11-20,McDonald's,-100.0
+2024-11-20,Salary,3000
+2024-11-21,Grocery Shopping,-360.0
+2024-11-21,Rent Payment,-900
+2024-11-22,Amazon Purchase,-170.0
+2024-11-22,Starbucks,-70.0
+2024-11-23,Car Repair,-1200
+2024-11-23,Salary,3000
+2024-11-24,Salary,2000
+2024-11-24,Grocery Shopping,-370.0
+2024-11-25,Amazon Purchase,-175.0
+2024-11-25,Starbucks,-72.0
+2024-11-26,Car Repair,-1250
+2024-11-26,Salary,3000
+2024-11-27,Uber Ride,-185.0
+2024-11-27,Salary,2000
+2024-11-28,Grocery Shopping,-380.0
+2024-11-28,Salary,3000
+2024-11-29,McDonald's,-102.0
+2024-11-29,Amazon Purchase,-180.0
+2024-11-30,Starbucks,-75.0
+2024-11-30,Salary,3000
+2024-12-01,Uber Ride,-170.0
+2024-12-01,Salary,5000
+2024-12-02,McDonald's,-95.0
+2024-12-02,Salary,4000
+2024-12-03,Grocery Shopping,-310.0
+2024-12-03,Salary,4000
+2024-12-04,Rent Payment,-860
+2024-12-04,Salary,3000
+2024-12-05,Amazon Purchase,-165.0
+2024-12-05,Starbucks,-72.0
+2024-12-06,Car Repair,-1100
+2024-12-06,Salary,3000
+2024-12-07,Uber Ride,-168.0
+2024-12-07,Salary,2000
+2024-12-08,Salary,3000
+2024-12-08,Grocery Shopping,-320.0
+2024-12-09,Amazon Purchase,-170.0
+2024-12-09,Starbucks,-74.0
+2024-12-10,Rent Payment,-870
+2024-12-10,Salary,2000
+2024-12-11,Salary,3000
+2024-12-11,Car Repair,-1150
+2024-12-12,Uber Ride,-172.0
+2024-12-12,Salary,2000
+2024-12-13,McDonald's,-94.0
+2024-12-13,Salary,3000
+2024-12-14,Grocery Shopping,-330.0
+2024-12-14,Amazon Purchase,-185.0
+2024-12-15,Starbucks,-77.0
+2024-12-15,Salary,3000
+2024-12-16,Car Repair,-1200
+2024-12-16,Salary,3000
+2024-12-17,Uber Ride,-165.0
+2024-12-17,Salary,2000
+2024-12-18,Grocery Shopping,-340.0
+2024-12-18,Salary,3000
+2024-12-19,Uber Ride,-170.0
+2024-12-19,Salary,2000
+2024-12-20,McDonald's,-97.0
+2024-12-20,Salary,3000
+2024-12-21,Grocery Shopping,-315.0
+2024-12-21,Rent Payment,-870
+2024-12-22,Amazon Purchase,-160.0
+2024-12-22,Starbucks,-70.0
+2024-12-23,Car Repair,-1050
+2024-12-23,Salary,3000
+2024-12-24,Salary,2000
+2024-12-24,Grocery Shopping,-325.0
+2024-12-25,Amazon Purchase,-175.0
+2024-12-25,Starbucks,-72.0
+2024-12-26,Car Repair,-1120
+2024-12-26,Salary,3000
+2024-12-27,Uber Ride,-170.0
+2024-12-27,Salary,2000
+2024-12-28,Grocery Shopping,-335.0
+2024-12-28,Salary,3000
+2024-12-29,McDonald's,-96.0
+2024-12-29,Amazon Purchase,-190.0
+2024-12-30,Starbucks,-78.0
+2024-12-30,Salary,3000
+2024-12-31,Uber Ride,-180.0
+2024-12-31,Salary,2000
+2025-01-01,Uber Ride,-170.0
+2025-01-01,Salary,5000
+2025-01-02,McDonald's,-100.0
+2025-01-02,Salary,4000
+2025-01-03,Grocery Shopping,-320.0
+2025-01-03,Salary,4000
+2025-01-04,Rent Payment,-880
+2025-01-04,Salary,3000
+2025-01-05,Amazon Purchase,-155.0
+2025-01-05,Starbucks,-68.0
+2025-01-06,Car Repair,-1020
+2025-01-06,Salary,3000
+2025-01-07,Uber Ride,-175.0
+2025-01-07,Salary,2000
+2025-01-08,Salary,3000
+2025-01-08,Grocery Shopping,-330.0
+2025-01-09,Amazon Purchase,-180.0
+2025-01-09,Starbucks,-75.0
+2025-01-10,Rent Payment,-880
+2025-01-10,Salary,2000
+2025-01-11,Salary,3000
+2025-01-11,Car Repair,-1100
+2025-01-12,Uber Ride,-178.0
+2025-01-12,Salary,2000
+2025-01-13,McDonald's,-98.0
+2025-01-13,Salary,3000
+2025-01-14,Grocery Shopping,-340.0
+2025-01-14,Amazon Purchase,-195.0
+2025-01-15,Starbucks,-80.0
+2025-01-15,Salary,3000
+2025-01-16,Car Repair,-1150
+2025-01-16,Salary,3000
+2025-01-17,Uber Ride,-180.0
+2025-01-17,Salary,2000
+2025-01-18,Grocery Shopping,-13000.0
+2025-01-18,Salary,3000
+2025-01-19,Uber Ride,-185.0
+2025-01-19,Salary,2000
+2025-01-20,McDonald's,-100.0
+2025-01-20,Salary,3000
+2025-01-21,Grocery Shopping,-360.0
+2025-01-21,Rent Payment,-900
+2025-01-22,Amazon Purchase,-170.0
+2025-01-22,Starbucks,-70.0
+2025-01-23,Car Repair,-1200
+2025-01-23,Salary,3000
+2025-01-24,Salary,2000
+2025-01-24,Grocery Shopping,-370.0
+2025-01-25,Amazon Purchase,-175.0
+2025-01-25,Starbucks,-72.0
+2025-01-26,Car Repair,-1250
+2025-01-26,Salary,3000
+2025-01-27,Uber Ride,-185.0
+2025-01-27,Salary,2000
+2025-01-28,Grocery Shopping,-380.0
+2025-01-28,Salary,3000
+2025-01-29,McDonald's,-102.0
+2025-01-29,Amazon Purchase,-180.0
+2025-01-30,Starbucks,-75.0
+2025-01-30,Salary,3000
+2025-01-31,Uber Ride,-190.0
+2025-01-31,Salary,2000
