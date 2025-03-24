@@ -158,46 +158,42 @@ budget_df.to_csv(budget_file, index=False)
 def display_footer():
     st.markdown("<br><hr><p class='footer'>🚀 Finance Dashboard by Anurag</p>", unsafe_allow_html=True)
 
-# Function to provide useful suggestions
-def provide_useful_suggestions(df_grouped, budget_df, selected_period):
+def saving_recommendations(df_grouped, budget_df, selected_period):
     st.markdown('<div class="main-container">', unsafe_allow_html=True)
-    st.subheader("💡 Useful Suggestions")
+    st.subheader("💡 Savings Recommendations")
+
+    total_savings = 0
+    savings_goals = []
+    alternative_options = []
+
+    # Calculate total savings and identify savings goals
+    total_income = income_df[income_df["Month"] == selected_period]["Amount"].sum()
+    if total_income > 0:
+        suggested_savings = total_income * 0.20  # Suggest saving 20% of income
+        savings_goals.append(f"🏦 Consider setting aside ${suggested_savings:.2f} as savings this month.")
+
+    # Suggest alternatives for high-cost items or services
+    alternative_options.append("🚗 Consider carpooling, public transport, or biking to save on transport costs.")
+    alternative_options.append("🍽️ Consider home-cooking or meal-prepping to reduce dining out expenses.")
+    alternative_options.append("🛍️ Look for sales, discounts, or consider second-hand options to save on shopping.")
+
+    # Display savings goals
+    for goal in savings_goals:
+        st.write(goal)
+
+    # Display alternative options
+    for option in alternative_options:
+        st.write(option)
     
-    total_savings = sum([
-        budget_query.values[0] - abs(amount)
-        for category, amount in df_grouped.items()
-        if not budget_df.loc[
-            (budget_df["Month"] == selected_period) & (budget_df["Category"] == category), 
-            "Budget"
-        ].empty and abs(amount) < budget_df.loc[
-            (budget_df["Month"] == selected_period) & (budget_df["Category"] == category), 
-            "Budget"
-        ].values[0]
-    ])
-
-    if total_savings > 0:
-        st.info(f"🎉 You have a total savings of **${total_savings:.2f}** across all categories!")
-    else:
-        st.info("🔍 Consider reviewing your spending habits to find areas where you can save more.")
-    st.markdown('</div>', unsafe_allow_html=True)
-
-# Function to suggest savings
-def suggest_savings(df_grouped, budget_df, selected_period):
-    st.markdown('<div="main-container">', unsafe_allow_html=True)
-    st.subheader("Savings Recommendations")
-    for category, amount in df_grouped.items():
-        budget_query = budget_df.loc[
-            (budget_df["Month"] == selected_period) & (budget_df["Category"] == category), 
-            "Budget"
-        ]
-        if not budget_query.empty and abs(amount) < budget_query.values[0]:
-            st.success(f"✅ Good job! You saved ${budget_query.values[0] - abs(amount):,.2f} in {category}.")
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Function to check budget exceedance
 def check_budget_exceedance(df_grouped, budget_df, selected_period):
-    st.markdown('<div="main-container">', unsafe_allow_html=True)
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
     st.subheader("Budget Analysis")
+
+    # Create a DataFrame to store budget exceedance information
+    exceedance_data = []
 
     for category, amount in df_grouped.items():
         budget_query = budget_df.loc[
@@ -205,7 +201,49 @@ def check_budget_exceedance(df_grouped, budget_df, selected_period):
             "Budget"
         ]
         if not budget_query.empty and abs(amount) > budget_query.values[0]:
-            st.warning(f"⚠️ You exceeded budget for {category} by ${abs(amount) - budget_query.values[0]:.2f}!")
+            exceedance_data.append({
+                "Category": category,
+                "Overbudget Value": abs(amount) - budget_query.values[0]
+            })
+
+    if exceedance_data:
+        exceedance_df = pd.DataFrame(exceedance_data)
+        st.table(exceedance_df)
+    else:
+        st.info("No budget exceedance for the selected period.")
+
+    st.markdown('</div>', unsafe_allow_html=True)
+
+# Function to display suspicious transactions
+def display_suspicious_transactions(df, selected_period):
+    st.markdown('<div class="main-container">', unsafe_allow_html=True)
+    st.subheader("Suspicious Transactions")
+
+    # Load suspicious transactions
+    if os.path.exists("fraud_transactions.csv"):
+        fraud_df = pd.read_csv("fraud_transactions.csv")
+        fraud_df["Date"] = pd.to_datetime(fraud_df["Date"]).dt.strftime('%Y-%m-%d')
+        fraud_df["Month"] = pd.to_datetime(fraud_df["Date"]).dt.to_period("M")
+        fraud_df = fraud_df[fraud_df["Month"] == selected_period]
+
+        if not fraud_df.empty:
+            fraud_df["Model Check"] = fraud_df["Model_Fraud_Flag"].apply(lambda x: '❌' if x == -1 else '✔️')
+            fraud_df["Large Amount Check"] = fraud_df["Large_Amount_Flag"].apply(lambda x: '❌' if x == 1 else '✔️')
+            fraud_df["Odd Hour Check"] = fraud_df["Odd_Hour_Flag"].apply(lambda x: '❌' if x == 1 else '✔️')
+            fraud_df["Final Check"] = fraud_df["Final_Fraud"].apply(lambda x: '❌' if x == 1 else '✔️')
+
+            # Format Amount column
+            fraud_df["Amount"] = fraud_df["Amount"].apply(lambda x: f'{abs(x):,.0f}')
+
+            # Adjust column widths for better readability
+            fraud_df = fraud_df.rename(columns={"Description": "Description"})
+            
+            st.table(fraud_df[["Date", "Description", "Amount", "Model Check", "Large Amount Check", "Odd Hour Check", "Final Check"]])
+        else:
+            st.info("No suspicious transactions found for the selected period.")
+    else:
+        st.info("No suspicious transactions found.")
+
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Render the selected page
@@ -231,9 +269,9 @@ elif selected_page == "Predict Expenses":
     st.table(combined_expenses)
     st.markdown('</div>', unsafe_allow_html=True)
 elif selected_page == "Suggestions":
-    provide_useful_suggestions(df_grouped, budget_df, selected_period)
-    suggest_savings(df_grouped, budget_df, selected_period)
+    saving_recommendations(df_grouped, budget_df, selected_period)
     check_budget_exceedance(df_grouped, budget_df, selected_period)
+    display_suspicious_transactions(df, selected_period)
 
 # Display footer
 display_footer()
