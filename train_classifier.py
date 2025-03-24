@@ -3,7 +3,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
 import joblib
 
-# Expanded dataset with more transactions
 data = {
     "Description": [
         "Amazon Purchase", "Uber Ride", "McDonald's", "Salary", "Rent Payment", "Grocery Shopping",
@@ -27,19 +26,15 @@ data = {
     ]
 }
 
-# Convert data to DataFrame
 df = pd.DataFrame(data)
 
-# Convert text to numerical format
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(df["Description"])
 y = df["Category"]
 
-# Train ML Model
 model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X, y)
 
-# Save model and vectorizer
 joblib.dump(model, "transaction_classifier.pkl")
 joblib.dump(vectorizer, "vectorizer.pkl")
 

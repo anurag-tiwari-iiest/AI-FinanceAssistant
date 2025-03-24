@@ -13,6 +13,12 @@ from components.display_category_wise_spending import display_category_wise_spen
 from components.display_spending_trends import display_spending_trends
 from components.display_category_comparison import display_category_comparison
 
+st.set_page_config(
+    page_title="AI Finance Assistant",
+    page_icon="💸",
+    layout="wide"
+)
+
 # Custom CSS for styling and themes
 st.markdown("""
     <style>
@@ -53,11 +59,8 @@ def load_data():
     return df
 
 df = load_data()
-
-# Merge Transport and Auto & Transport categories
 df["Category"] = df["Category"].replace("Transport", "Auto & Transport")
 
-# Exclude income from expenses
 income_categories = ["Salary", "Income"]
 expenses_df = df[~df["Category"].isin(income_categories)]
 income_df = df[df["Category"].isin(income_categories)]
@@ -83,7 +86,6 @@ if not os.path.exists(budget_file):
     ])
     budget_df.to_csv(budget_file, index=False)
 else:
-    # Load the existing budget file
     budget_df = pd.read_csv(budget_file)
     budget_df["Month"] = pd.to_datetime(budget_df["Month"]).dt.to_period("M")
 
@@ -141,11 +143,9 @@ new_budget = st.sidebar.number_input(
 
 # Update the budget DataFrame with the new value
 if budget_query.empty:
-    # If there is no existing budget, add a new entry
     new_row = pd.DataFrame({"Month": [selected_budget_period], "Category": [selected_category], "Budget": [new_budget]})
     budget_df = pd.concat([budget_df, new_row], ignore_index=True)
 else:
-    # Update the existing budget
     budget_df.loc[
         (budget_df["Month"] == selected_budget_period) & (budget_df["Category"] == selected_category), 
         "Budget"
@@ -273,5 +273,4 @@ elif selected_page == "Suggestions":
     check_budget_exceedance(df_grouped, budget_df, selected_period)
     display_suspicious_transactions(df, selected_period)
 
-# Display footer
 display_footer()
